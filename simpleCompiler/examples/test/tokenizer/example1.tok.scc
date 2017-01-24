@@ -1,0 +1,6 @@
+    4      1   PRINT                
+    4      6   LEFT_PARENTHESIS     
+    4      7   STRING               Hello, World!\n
+    4     24   RIGHT_PARENTHESIS    
+    4     25   SEMICOLON            
+    4     25   EOI                  
