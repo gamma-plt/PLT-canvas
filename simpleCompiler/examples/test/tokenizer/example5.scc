@@ -1,0 +1,3 @@
+/* The most undignified comment ever */
+comp = ('a' < 'b');
+value = 4;

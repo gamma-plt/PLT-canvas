@@ -1,0 +1,11 @@
+Sequence      
+Sequence      
+;
+Assign        
+Identifier    comp
+Less          
+Integer       97
+Integer       98
+Assign        
+Identifier    value
+Integer       4

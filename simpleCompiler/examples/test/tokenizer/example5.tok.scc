@@ -1,0 +1,13 @@
+    2      1   IDENTIFIER           comp
+    2      6   ASSIGN               
+    2      8   LEFT_PARENTHESIS     
+    2      9   INTEGER              97
+    2     13   LESS                 
+    2     15   INTEGER              98
+    2     18   RIGHT_PARENTHESIS    
+    2     19   SEMICOLON            
+    3      1   IDENTIFIER           value
+    3      7   ASSIGN               
+    3      9   INTEGER              4
+    3     10   SEMICOLON            
+    3     10   EOI                  
