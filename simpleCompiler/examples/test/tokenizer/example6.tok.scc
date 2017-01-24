@@ -1,0 +1,89 @@
+    1      1   LEFT_CURLY           
+    2      5   IDENTIFIER           c
+    2      7   ASSIGN               
+    2      9   INTEGER              97
+    2     12   SEMICOLON            
+    3      5   IDENTIFIER           isLowercaseVowel
+    3     22   ASSIGN               
+    3     24   INTEGER              0
+    3     25   SEMICOLON            
+    4      5   IDENTIFIER           isUppercaseVowel
+    4     22   ASSIGN               
+    4     24   INTEGER              0
+    4     25   SEMICOLON            
+    6      5   PRINT                
+    6     10   LEFT_PARENTHESIS     
+    6     11   STRING               Enter an alphabet: 
+    6     32   RIGHT_PARENTHESIS    
+    6     33   SEMICOLON            
+    9      5   IDENTIFIER           isLowercaseVowel
+    9     22   ASSIGN               
+    9     24   LEFT_PARENTHESIS     
+    9     25   IDENTIFIER           c
+    9     27   EQUAL                
+    9     30   INTEGER              97
+    9     34   OR                   
+    9     37   IDENTIFIER           c
+    9     39   EQUAL                
+    9     42   INTEGER              101
+    9     46   OR                   
+    9     49   IDENTIFIER           c
+    9     51   EQUAL                
+    9     54   INTEGER              105
+    9     58   OR                   
+    9     61   IDENTIFIER           c
+    9     63   EQUAL                
+    9     66   INTEGER              111
+    9     70   OR                   
+    9     73   IDENTIFIER           c
+    9     75   EQUAL                
+    9     78   INTEGER              117
+    9     81   RIGHT_PARENTHESIS    
+    9     82   SEMICOLON            
+   12      5   IDENTIFIER           isUppercaseVowel
+   12     22   ASSIGN               
+   12     24   LEFT_PARENTHESIS     
+   12     25   IDENTIFIER           c
+   12     27   EQUAL                
+   12     30   INTEGER              65
+   12     34   OR                   
+   12     37   IDENTIFIER           c
+   12     39   EQUAL                
+   12     42   INTEGER              69
+   12     46   OR                   
+   12     49   IDENTIFIER           c
+   12     51   EQUAL                
+   12     54   INTEGER              73
+   12     58   OR                   
+   12     61   IDENTIFIER           c
+   12     63   EQUAL                
+   12     66   INTEGER              79
+   12     70   OR                   
+   12     73   IDENTIFIER           c
+   12     75   EQUAL                
+   12     78   INTEGER              85
+   12     81   RIGHT_PARENTHESIS    
+   12     82   SEMICOLON            
+   15      5   IF                   
+   15      8   LEFT_PARENTHESIS     
+   15      9   IDENTIFIER           isLowercaseVowel
+   15     26   OR                   
+   15     29   IDENTIFIER           isUppercaseVowel
+   15     45   RIGHT_PARENTHESIS    
+   16      9   PRINT                
+   16     14   LEFT_PARENTHESIS     
+   16     15   STRING               %c is a vowel.
+   16     31   COMMA                
+   16     33   IDENTIFIER           c
+   16     34   RIGHT_PARENTHESIS    
+   16     35   SEMICOLON            
+   17      5   ELSE                 
+   18      9   PRINT                
+   18     14   LEFT_PARENTHESIS     
+   18     15   STRING               %c is a consonant.
+   18     35   COMMA                
+   18     37   IDENTIFIER           c
+   18     38   RIGHT_PARENTHESIS    
+   18     39   SEMICOLON            
+   20      1   RIGHT_CURLY          
+   20      1   EOI                  

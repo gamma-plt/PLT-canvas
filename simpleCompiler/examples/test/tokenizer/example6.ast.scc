@@ -1,0 +1,89 @@
+Sequence      
+;
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+;
+Assign        
+Identifier    c
+Integer       97
+Assign        
+Identifier    isLowercaseVowel
+Integer       0
+Assign        
+Identifier    isUppercaseVowel
+Integer       0
+Sequence      
+;
+Ptrs          
+String        Enter an alphabet: 
+;
+Assign        
+Identifier    isLowercaseVowel
+Or            
+Or            
+Or            
+Or            
+Equal         
+Identifier    c
+Integer       97
+Equal         
+Identifier    c
+Integer       101
+Equal         
+Identifier    c
+Integer       105
+Equal         
+Identifier    c
+Integer       111
+Equal         
+Identifier    c
+Integer       117
+Assign        
+Identifier    isUppercaseVowel
+Or            
+Or            
+Or            
+Or            
+Equal         
+Identifier    c
+Integer       65
+Equal         
+Identifier    c
+Integer       69
+Equal         
+Identifier    c
+Integer       73
+Equal         
+Identifier    c
+Integer       79
+Equal         
+Identifier    c
+Integer       85
+If            
+Or            
+Identifier    isLowercaseVowel
+Identifier    isUppercaseVowel
+If            
+Sequence      
+Sequence      
+;
+Ptrs          
+String        %c is a vowel.
+;
+Prti          
+Identifier    c
+;
+Sequence      
+Sequence      
+;
+Ptrs          
+String        %c is a consonant.
+;
+Prti          
+Identifier    c
+;
