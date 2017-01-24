@@ -1,0 +1,95 @@
+    7      1   IDENTIFIER           count
+    7      7   ASSIGN               
+    7      9   INTEGER              1
+    7     10   SEMICOLON            
+    8      1   IDENTIFIER           n
+    8      3   ASSIGN               
+    8      5   INTEGER              1
+    8      6   SEMICOLON            
+    9      1   IDENTIFIER           limit
+    9      7   ASSIGN               
+    9      9   INTEGER              100
+    9     12   SEMICOLON            
+   10      1   WHILE                
+   10      7   LEFT_PARENTHESIS     
+   10      8   IDENTIFIER           n
+   10     10   LESS                 
+   10     12   IDENTIFIER           limit
+   10     17   RIGHT_PARENTHESIS    
+   10     19   LEFT_CURLY           
+   11      3   IDENTIFIER           k
+   11      4   ASSIGN               
+   11      5   INTEGER              3
+   11      6   SEMICOLON            
+   12      3   IDENTIFIER           p
+   12      4   ASSIGN               
+   12      5   INTEGER              1
+   12      6   SEMICOLON            
+   13      3   IDENTIFIER           n
+   13      4   ASSIGN               
+   13      5   IDENTIFIER           n
+   13      6   ADDITION             
+   13      7   INTEGER              2
+   13      8   SEMICOLON            
+   14      3   WHILE                
+   14      9   LEFT_PARENTHESIS     
+   14     10   LEFT_PARENTHESIS     
+   14     11   IDENTIFIER           k
+   14     12   MULTIPLICATION       
+   14     13   IDENTIFIER           k
+   14     14   LESS_EQUAL           
+   14     16   IDENTIFIER           n
+   14     17   RIGHT_PARENTHESIS    
+   14     19   AND                  
+   14     22   LEFT_PARENTHESIS     
+   14     23   IDENTIFIER           p
+   14     24   RIGHT_PARENTHESIS    
+   14     25   RIGHT_PARENTHESIS    
+   14     27   LEFT_CURLY           
+   15      5   IDENTIFIER           p
+   15      6   ASSIGN               
+   15      7   IDENTIFIER           n
+   15      8   DIVISION             
+   15      9   IDENTIFIER           k
+   15     10   MULTIPLICATION       
+   15     11   IDENTIFIER           k
+   15     12   NOT_EQUAL            
+   15     14   IDENTIFIER           n
+   15     15   SEMICOLON            
+   16      5   IDENTIFIER           k
+   16      6   ASSIGN               
+   16      7   IDENTIFIER           k
+   16      8   ADDITION             
+   16      9   INTEGER              2
+   16     10   SEMICOLON            
+   17      3   RIGHT_CURLY          
+   18      3   IF                   
+   18      6   LEFT_PARENTHESIS     
+   18      7   IDENTIFIER           p
+   18      8   RIGHT_PARENTHESIS    
+   18     10   LEFT_CURLY           
+   19      5   PRINT                
+   19     10   LEFT_PARENTHESIS     
+   19     11   IDENTIFIER           n
+   19     12   COMMA                
+   19     14   STRING                is prime\n
+   19     27   RIGHT_PARENTHESIS    
+   19     28   SEMICOLON            
+   20      5   IDENTIFIER           count
+   20     11   ASSIGN               
+   20     13   IDENTIFIER           count
+   20     19   ADDITION             
+   20     21   INTEGER              1
+   20     22   SEMICOLON            
+   21      3   RIGHT_CURLY          
+   22      1   RIGHT_CURLY          
+   23      1   PRINT                
+   23      6   LEFT_PARENTHESIS     
+   23      7   STRING               Total primes found: 
+   23     29   COMMA                
+   23     31   IDENTIFIER           count
+   23     36   COMMA                
+   23     38   STRING               \n
+   23     42   RIGHT_PARENTHESIS    
+   23     43   SEMICOLON            
+   23     43   EOI                  
