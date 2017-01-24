@@ -1,0 +1,3 @@
+# Descensus
+
+This folder has several examples of some grammars and hand-written recursive descent parsers for them. There are several implementation languages (`Java`, `C`, `OCaml`, `Standard-ML`, `Scheme` and other languages). Every folder contains a description of the grammar in plain text and a `README.md` file detailing the grammar and a folder with the code that implements the parser. This canvas aims to provide an explanation of this valuable and widely used technique.
