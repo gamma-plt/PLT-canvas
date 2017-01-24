@@ -1,0 +1,28 @@
+    1      1   IDENTIFIER           count
+    1      7   ASSIGN               
+    1      9   INTEGER              0
+    1     10   SEMICOLON            
+    2      1   WHILE                
+    2      7   LEFT_PARENTHESIS     
+    2      8   IDENTIFIER           count
+    2     14   LESS                 
+    2     16   INTEGER              10
+    2     18   RIGHT_PARENTHESIS    
+    2     20   LEFT_CURLY           
+    3      3   PRINT                
+    3      8   LEFT_PARENTHESIS     
+    3      9   STRING               count is: 
+    3     21   COMMA                
+    3     23   IDENTIFIER           count
+    3     28   COMMA                
+    3     30   STRING               \n
+    3     34   RIGHT_PARENTHESIS    
+    3     35   SEMICOLON            
+    4      3   IDENTIFIER           count
+    4      9   ASSIGN               
+    4     11   IDENTIFIER           count
+    4     17   ADDITION             
+    4     19   INTEGER              1
+    4     20   SEMICOLON            
+    5      1   RIGHT_CURLY          
+    5      1   EOI                  
