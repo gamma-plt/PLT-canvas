@@ -7,31 +7,31 @@ import java.util.List;
 public class ASTNode {
 
     private static final List<String> DISPLAY_NODES = new ArrayList<String>() {{
-        add("Identifier");
-        add("String");
-        add("Integer");
-        add("Sequence");
-        add("If");
-        add("Prtc");
-        add("Ptrs");
-        add("Prti");
-        add("While");
-        add("Assign");
-        add("Negate");
-        add("Not");
-        add("Multiply");
-        add("Divide");
-        add("Mod");
-        add("Add");
-        add("Subtract");
-        add("Less");
-        add("LessEqual");
-        add("Greater");
-        add("GreaterEqual");
-        add("Equal");
-        add("NotEqual");
-        add("And");
-        add("Or");
+        add("IDENTIFIER");
+        add("STRING");
+        add("INTEGER");
+        add("SEQUENCE");
+        add("IF");
+        add("PRTC");
+        add("PRTS");
+        add("PRTI");
+        add("WHILE");
+        add("ASSIGN");
+        add("NEGATE");
+        add("NOT");
+        add("MULTIPLY");
+        add("DIVIDE");
+        add("MOD");
+        add("ADD");
+        add("SUBSTRACT");
+        add("LESS");
+        add("LESS_EQUAL");
+        add("GREATER");
+        add("GREATER_EQUAL");
+        add("EQUAL");
+        add("NOT_EQUAL");
+        add("AND");
+        add("OR");
     }};
 
     private ASTNodeType nodeType;
@@ -92,7 +92,7 @@ public class ASTNode {
             if(astNode.nodeType == ASTNodeType.IDENTIFIER || astNode.nodeType == ASTNodeType.INTEGER)
                 ans += String.format("%s\n", astNode.value);
             else if(astNode.nodeType == ASTNodeType.STRING)
-                ans += String.format("%s\n", astNode.value);
+                ans += String.format("\"%s\"\n", astNode.value);
             else {
                 ans += "\n";
                 ans += displayFlattRepresentation(astNode.left);
