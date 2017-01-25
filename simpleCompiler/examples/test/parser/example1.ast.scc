@@ -1,31 +1,31 @@
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
 ;
-Assign        
-Identifier    count
-Integer       0
-While         
-Less          
-Identifier    count
-Integer       10
-Sequence      
-Sequence      
+ASSIGN        
+IDENTIFIER    count
+INTEGER       0
+WHILE         
+LESS          
+IDENTIFIER    count
+INTEGER       10
+SEQUENCE      
+SEQUENCE      
 ;
-Sequence      
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
 ;
-Ptrs          
-String        count is: 
+PRTS          
+STRING        "count is: "
 ;
-Prti          
-Identifier    count
+PRTI          
+IDENTIFIER    count
 ;
-Ptrs          
-String        \n
+PRTS          
+STRING        "\n"
 ;
-Assign        
-Identifier    count
-Add           
-Identifier    count
-Integer       1
+ASSIGN        
+IDENTIFIER    count
+ADD           
+IDENTIFIER    count
+INTEGER       1

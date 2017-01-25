@@ -1,89 +1,89 @@
-Sequence      
+SEQUENCE      
 ;
-Sequence      
-Sequence      
-Sequence      
-Sequence      
-Sequence      
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
 ;
-Assign        
-Identifier    c
-Integer       97
-Assign        
-Identifier    isLowercaseVowel
-Integer       0
-Assign        
-Identifier    isUppercaseVowel
-Integer       0
-Sequence      
+ASSIGN        
+IDENTIFIER    c
+INTEGER       97
+ASSIGN        
+IDENTIFIER    isLowercaseVowel
+INTEGER       0
+ASSIGN        
+IDENTIFIER    isUppercaseVowel
+INTEGER       0
+SEQUENCE      
 ;
-Ptrs          
-String        Enter an alphabet: 
+PRTS          
+STRING        "Enter an alphabet: "
 ;
-Assign        
-Identifier    isLowercaseVowel
-Or            
-Or            
-Or            
-Or            
-Equal         
-Identifier    c
-Integer       97
-Equal         
-Identifier    c
-Integer       101
-Equal         
-Identifier    c
-Integer       105
-Equal         
-Identifier    c
-Integer       111
-Equal         
-Identifier    c
-Integer       117
-Assign        
-Identifier    isUppercaseVowel
-Or            
-Or            
-Or            
-Or            
-Equal         
-Identifier    c
-Integer       65
-Equal         
-Identifier    c
-Integer       69
-Equal         
-Identifier    c
-Integer       73
-Equal         
-Identifier    c
-Integer       79
-Equal         
-Identifier    c
-Integer       85
-If            
-Or            
-Identifier    isLowercaseVowel
-Identifier    isUppercaseVowel
-If            
-Sequence      
-Sequence      
+ASSIGN        
+IDENTIFIER    isLowercaseVowel
+OR            
+OR            
+OR            
+OR            
+EQUAL         
+IDENTIFIER    c
+INTEGER       97
+EQUAL         
+IDENTIFIER    c
+INTEGER       101
+EQUAL         
+IDENTIFIER    c
+INTEGER       105
+EQUAL         
+IDENTIFIER    c
+INTEGER       111
+EQUAL         
+IDENTIFIER    c
+INTEGER       117
+ASSIGN        
+IDENTIFIER    isUppercaseVowel
+OR            
+OR            
+OR            
+OR            
+EQUAL         
+IDENTIFIER    c
+INTEGER       65
+EQUAL         
+IDENTIFIER    c
+INTEGER       69
+EQUAL         
+IDENTIFIER    c
+INTEGER       73
+EQUAL         
+IDENTIFIER    c
+INTEGER       79
+EQUAL         
+IDENTIFIER    c
+INTEGER       85
+IF            
+OR            
+IDENTIFIER    isLowercaseVowel
+IDENTIFIER    isUppercaseVowel
+IF            
+SEQUENCE      
+SEQUENCE      
 ;
-Ptrs          
-String        %c is a vowel.
+PRTS          
+STRING        "%c is a vowel."
 ;
-Prti          
-Identifier    c
+PRTI          
+IDENTIFIER    c
 ;
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
 ;
-Ptrs          
-String        %c is a consonant.
+PRTS          
+STRING        "%c is a consonant."
 ;
-Prti          
-Identifier    c
+PRTI          
+IDENTIFIER    c
 ;

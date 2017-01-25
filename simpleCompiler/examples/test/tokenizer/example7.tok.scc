@@ -72,7 +72,7 @@
    19     10   LEFT_PARENTHESIS     
    19     11   IDENTIFIER           n
    19     12   COMMA                
-   19     14   STRING                is prime\n
+   19     14   STRING               " is prime\n"
    19     27   RIGHT_PARENTHESIS    
    19     28   SEMICOLON            
    20      5   IDENTIFIER           count
@@ -85,11 +85,11 @@
    22      1   RIGHT_CURLY          
    23      1   PRINT                
    23      6   LEFT_PARENTHESIS     
-   23      7   STRING               Total primes found: 
+   23      7   STRING               "Total primes found: "
    23     29   COMMA                
    23     31   IDENTIFIER           count
    23     36   COMMA                
-   23     38   STRING               \n
+   23     38   STRING               "\n"
    23     42   RIGHT_PARENTHESIS    
    23     43   SEMICOLON            
    23     43   EOI                  

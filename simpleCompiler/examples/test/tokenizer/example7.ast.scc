@@ -1,95 +1,95 @@
-Sequence      
-Sequence      
-Sequence      
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
 ;
-Assign        
-Identifier    count
-Integer       1
-Assign        
-Identifier    n
-Integer       1
-Assign        
-Identifier    limit
-Integer       100
-While         
-Less          
-Identifier    n
-Identifier    limit
-Sequence      
-Sequence      
-Sequence      
-Sequence      
-Sequence      
+ASSIGN        
+IDENTIFIER    count
+INTEGER       1
+ASSIGN        
+IDENTIFIER    n
+INTEGER       1
+ASSIGN        
+IDENTIFIER    limit
+INTEGER       100
+WHILE         
+LESS          
+IDENTIFIER    n
+IDENTIFIER    limit
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
 ;
-Assign        
-Identifier    k
-Integer       3
-Assign        
-Identifier    p
-Integer       1
-Assign        
-Identifier    n
-Add           
-Identifier    n
-Integer       2
-While         
-And           
-LessEqual     
-Multiply      
-Identifier    k
-Identifier    k
-Identifier    n
-Identifier    p
-Sequence      
-Sequence      
+ASSIGN        
+IDENTIFIER    k
+INTEGER       3
+ASSIGN        
+IDENTIFIER    p
+INTEGER       1
+ASSIGN        
+IDENTIFIER    n
+ADD           
+IDENTIFIER    n
+INTEGER       2
+WHILE         
+AND           
+LESS_EQUAL    
+MULTIPLY      
+IDENTIFIER    k
+IDENTIFIER    k
+IDENTIFIER    n
+IDENTIFIER    p
+SEQUENCE      
+SEQUENCE      
 ;
-Assign        
-Identifier    p
-NotEqual      
-Multiply      
-Divide        
-Identifier    n
-Identifier    k
-Identifier    k
-Identifier    n
-Assign        
-Identifier    k
-Add           
-Identifier    k
-Integer       2
-If            
-Identifier    p
-If            
-Sequence      
-Sequence      
+ASSIGN        
+IDENTIFIER    p
+NOT_EQUAL     
+MULTIPLY      
+DIVIDE        
+IDENTIFIER    n
+IDENTIFIER    k
+IDENTIFIER    k
+IDENTIFIER    n
+ASSIGN        
+IDENTIFIER    k
+ADD           
+IDENTIFIER    k
+INTEGER       2
+IF            
+IDENTIFIER    p
+IF            
+SEQUENCE      
+SEQUENCE      
 ;
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
 ;
-Prti          
-Identifier    n
+PRTI          
+IDENTIFIER    n
 ;
-Ptrs          
-String         is prime\n
+PRTS          
+STRING        " is prime\n"
 ;
-Assign        
-Identifier    count
-Add           
-Identifier    count
-Integer       1
+ASSIGN        
+IDENTIFIER    count
+ADD           
+IDENTIFIER    count
+INTEGER       1
 ;
-Sequence      
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
 ;
-Ptrs          
-String        Total primes found: 
+PRTS          
+STRING        "Total primes found: "
 ;
-Prti          
-Identifier    count
+PRTI          
+IDENTIFIER    count
 ;
-Ptrs          
-String        \n
+PRTS          
+STRING        "\n"
 ;

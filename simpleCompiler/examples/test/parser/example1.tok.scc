@@ -11,11 +11,11 @@
     2     20   LEFT_CURLY           
     3      3   PRINT                
     3      8   LEFT_PARENTHESIS     
-    3      9   STRING               count is: 
+    3      9   STRING               "count is: "
     3     21   COMMA                
     3     23   IDENTIFIER           count
     3     28   COMMA                
-    3     30   STRING               \n
+    3     30   STRING               "\n"
     3     34   RIGHT_PARENTHESIS    
     3     35   SEMICOLON            
     4      3   IDENTIFIER           count

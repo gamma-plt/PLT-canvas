@@ -13,7 +13,7 @@
     4     25   SEMICOLON            
     6      5   PRINT                
     6     10   LEFT_PARENTHESIS     
-    6     11   STRING               Enter an alphabet: 
+    6     11   STRING               "Enter an alphabet: "
     6     32   RIGHT_PARENTHESIS    
     6     33   SEMICOLON            
     9      5   IDENTIFIER           isLowercaseVowel
@@ -72,7 +72,7 @@
    15     45   RIGHT_PARENTHESIS    
    16      9   PRINT                
    16     14   LEFT_PARENTHESIS     
-   16     15   STRING               %c is a vowel.
+   16     15   STRING               "%c is a vowel."
    16     31   COMMA                
    16     33   IDENTIFIER           c
    16     34   RIGHT_PARENTHESIS    
@@ -80,7 +80,7 @@
    17      5   ELSE                 
    18      9   PRINT                
    18     14   LEFT_PARENTHESIS     
-   18     15   STRING               %c is a consonant.
+   18     15   STRING               "%c is a consonant."
    18     35   COMMA                
    18     37   IDENTIFIER           c
    18     38   RIGHT_PARENTHESIS    

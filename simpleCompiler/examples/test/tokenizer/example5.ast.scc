@@ -1,11 +1,11 @@
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
 ;
-Assign        
-Identifier    comp
-Less          
-Integer       97
-Integer       98
-Assign        
-Identifier    value
-Integer       4
+ASSIGN        
+IDENTIFIER    comp
+LESS          
+INTEGER       97
+INTEGER       98
+ASSIGN        
+IDENTIFIER    value
+INTEGER       4

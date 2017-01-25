@@ -1,15 +1,15 @@
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
 ;
-Assign        
-Identifier    phoenix_number
-Integer       142857
-Sequence      
-Sequence      
+ASSIGN        
+IDENTIFIER    phoenix_number
+INTEGER       142857
+SEQUENCE      
+SEQUENCE      
 ;
-Prti          
-Identifier    phoenix_number
+PRTI          
+IDENTIFIER    phoenix_number
 ;
-Ptrs          
-String        \n
+PRTS          
+STRING        "\n"
 ;

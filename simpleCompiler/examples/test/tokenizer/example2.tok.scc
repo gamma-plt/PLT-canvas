@@ -6,7 +6,7 @@
     5      6   LEFT_PARENTHESIS     
     5      7   IDENTIFIER           phoenix_number
     5     21   COMMA                
-    5     23   STRING               \n
+    5     23   STRING               "\n"
     5     27   RIGHT_PARENTHESIS    
     5     28   SEMICOLON            
     5     28   EOI                  

@@ -1,19 +1,19 @@
-Sequence      
-Sequence      
-Sequence      
+SEQUENCE      
+SEQUENCE      
+SEQUENCE      
 ;
-Sequence      
+SEQUENCE      
 ;
-Prti          
-Integer       42
+PRTI          
+INTEGER       42
 ;
-Sequence      
+SEQUENCE      
 ;
-Ptrs          
-String        \nHello World\nGood Bye\nok\n
+PRTS          
+STRING        "\nHello World\nGood Bye\nok\n"
 ;
-Sequence      
+SEQUENCE      
 ;
-Ptrs          
-String        Print a slash n - \\n.\n
+PRTS          
+STRING        "Print a slash n - \\n.\n"
 ;

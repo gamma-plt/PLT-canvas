@@ -5,12 +5,12 @@
     2     10   SEMICOLON            
     3      1   PRINT                
     3      6   LEFT_PARENTHESIS     
-    3      7   STRING               \nHello World\nGood Bye\nok\n
+    3      7   STRING               "\nHello World\nGood Bye\nok\n"
     3     38   RIGHT_PARENTHESIS    
     3     39   SEMICOLON            
     4      1   PRINT                
     4      6   LEFT_PARENTHESIS     
-    4      7   STRING               Print a slash n - \\n.\n
+    4      7   STRING               "Print a slash n - \\n.\n"
     4     33   RIGHT_PARENTHESIS    
     4     34   SEMICOLON            
     4     34   EOI                  
