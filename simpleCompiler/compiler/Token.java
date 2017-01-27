@@ -98,7 +98,8 @@ public class Token {
 
     /**
      * Gives a String representation of a Token object, it should be used for
-     * Lexer debugging
+     * Lexer debugging. This String representation includes the position of the
+     * Token object, its type, and its value (if the object has one).
      *
      * @return String representation of the Token.
      */
